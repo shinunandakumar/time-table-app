@@ -25,7 +25,7 @@ SECRET_KEY = 'ywxkjb9v(q(#dt7c4b#sim#ru!f-dyp1m(x8lb=0br=%j1vku!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['web']
+ALLOWED_HOSTS = ['web','*']
 
 SITE_HEADER = "Time Table App"
 

@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'ywxkjb9v(q(#dt7c4b#sim#ru!f-dyp1m(x8lb=0br=%j1vku!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+CSRF_TRUSTED_ORIGINS = ['http://ec2-3-25-118-154.ap-southeast-2.compute.amazonaws.com','https://*.127.0.0.1']
 
 ALLOWED_HOSTS = ['web','*']
 
